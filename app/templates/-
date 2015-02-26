@@ -1,0 +1,16 @@
+--2015-02-26 00:53:20--  http://install.ohmyz.sh/
+Resolving install.ohmyz.sh (install.ohmyz.sh)... 50.31.225.93
+Connecting to install.ohmyz.sh (install.ohmyz.sh)|50.31.225.93|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh [following]
+--2015-02-26 00:53:20--  https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 23.235.40.133
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|23.235.40.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1930 (1.9K) [text/plain]
+Saving to: ‘index.html.1’
+
+     0K .                                                     100%  544K=0.003s
+
+2015-02-26 00:53:20 (544 KB/s) - ‘index.html.1’ saved [1930/1930]
+
