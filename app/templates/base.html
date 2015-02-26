@@ -12,6 +12,16 @@
 	<body>
 		<div> Microblog: <a href="/index">Home</a></div> <!-- This is the NavBar -->
 		<hr>
+		<!-- Displays any flashed messages -->
+		{% with messages = get_flashed_messages() %}
+			{% if messages %}
+				<ul>
+				{% for message in messages %}	<!-- All flashed messages are deleted after -->
+					<li>{{ message }} </li>
+				{% endfor %}
+				</ul>
+			{% endif %}
+		{% endwith %}
 		{% block content %}{% endblock %} <!-- This inserts content from any child template -->
 	</body>
 </html>
