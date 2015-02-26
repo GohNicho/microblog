@@ -1,5 +1,8 @@
+<!-- This is the base template -->
+
 <html>
 	<head>
+		<!-- This is shenanigans for the page title-->
 		{% if title %}
 		<title>{{ title }} - microblog </title>
 		{% else %}
@@ -7,8 +10,8 @@
 		{% endif %}
 	</head>
 	<body>
-		<div> Microblog: <a href="/index">Home</a></div>
+		<div> Microblog: <a href="/index">Home</a></div> <!-- This is the NavBar -->
 		<hr>
-		{% block content %}{% endblock %}
+		{% block content %}{% endblock %} <!-- This inserts content from any child template -->
 	</body>
 </html>
